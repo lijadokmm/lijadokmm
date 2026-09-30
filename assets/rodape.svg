@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 96" width="1280" height="96" role="img" aria-label="fim da transmissão">
+<title>fim da transmissão</title>
+<style>
+@keyframes some{0%,90%,100%{opacity:1}91%{opacity:.2}92%{opacity:1}95%{opacity:.5}96%{opacity:1}}
+.s{animation:some 4.8s steps(1,end) infinite}
+@keyframes corre{from{transform:translateX(-300px)}to{transform:translateX(1580px)}}
+.p{animation:corre 3.6s cubic-bezier(.6,0,.4,1) infinite}
+</style>
+<defs><linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#ff2d55" stop-opacity="0"/><stop offset=".5" stop-color="#ff2d55"/><stop offset="1" stop-color="#ff2d55" stop-opacity="0"/></linearGradient></defs>
+<g mask="url(#vao)"><line x1="40" y1="48.0" x2="1240" y2="48.0" stroke="#6e6679" stroke-opacity=".45"/>
+<rect class="p" x="0" y="47.0" width="260" height="2" fill="url(#l)"/></g>
+<mask id="vao"><rect width="1280" height="96" fill="#fff"/><rect x="517.0" y="0" width="246.0" height="96" fill="#000"/></mask>
+<g class="s"><text x="541.0" y="53.0" textLength="198.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="font-family:ui-monospace,'SFMono-Regular','Cascadia Mono',Menlo,Consolas,'Liberation Mono',monospace;font-size:15px;white-space:pre" fill="#8a8194" >[ fim da transmissão ]</text></g>
+</svg>
